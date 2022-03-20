@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    /* background-color: aqua; */
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* header area starts */
+.navbar {
+    padding: 1rem 1rem;
+    /* padding: 1rem 5rem; */
+   
+  
+}
+.navbar .navbar-brand{
+    padding: 0.2rem 0.5rem;
+    font-weight: bold;
+    color:blueviolet;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Patua One', cursive;
+    
+}
+.navbar .navbar-brand:hover{
+    text-decoration: underline;
+    color: rgb(119, 28, 223);
+    filter: brightness(0.9);
+}
+.nav-item .nav-link{
+    text-transform: uppercase;
+    font-weight:500;
+    padding: 0.4rem 1rem;
+    
+}
+#active{
+    color: rgb(135, 11, 189);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.header_area .navbar-nav .nav-link{
+    
+    font-weight: bolder;
+}
+
+.header_area .navbar-nav .nav-link:hover {
+    color: rgb(135, 11, 189);
+    font-weight: bolder;
+}
+
+/* header area ends */
+
+/* mani area starts */
+/* banner area starts */
+.main-area .banner-area{
+    margin:3rem 0rem;
+    /* padding-left: 7rem; */
+    
+}
+.main-area .banner-area .banner-title{
+    /* padding: 1rem 5rem; */
+    margin: 4rem;
+    /* border: 2px solid black; */
+}
+.main-area .banner-area .banner-title h4{
+    padding-top: 20%;
+    font-weight: 500;
+}
+.main-area .banner-area .banner-title h4:after{
+    content:"";
+    height: 2px;
+    width: 18vw;
+    background: blueviolet;
+    display: inline-block;
+    /* margin-left: 2%; */
+    transform: translate'Y'(-10px);
+}
+.main-area .banner-area .banner-title h2{
+    font-size: 3rem;
+    font-family: 'Ramaraja', serif;
+}
+.main-area .banner-area .banner-title h5{
+    font-size: 1rem;
+    
+}
+.highlight{
+    color: rgb(248, 29, 230);
+    font-family: 'Patua One', cursive;
+    /* font-family: 'Ramaraja', serif; */
+}
+#my-image{
+    width: 60%;
+    border-radius: 50%;
+    margin: 1rem auto;
+    filter: brightness(1.2);
+    border: 3px solid rgb(223, 72, 223);
+}
+#my-image:hover{
+    filter: brightness(1.2);
+    border: 3px solid rgb(20, 9, 20);
+}
+
+.button{
+    
+    /* position: relative; */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /* width: 1rem; */
+}
+.button.primary-button{
+    
+    background: darkviolet;
+    /* background-clip: padding-box; */
+    color: white;
+    font-weight: bold;
+
+    box-shadow: 3px 3px 8px #888888;
+}
+.button.primary-button a{
+    
+    color: white;
+    text-decoration: none;
+    
+}
+.button.primary-button a:hover{
+    
+    color: darkviolet;
+    text-decoration: none;
+    
+}
+
+.button.primary-button:hover{
+    
+    background:white ;
+    /* background-clip: padding-box; */
+    color: darkviolet;
+    
+    box-shadow: 3px 3px 8px #888888;
+}
+
+/* banner area ends */
+
+/* About area starts */
+.main-area .about-area .about-area-title{
+    margin-left: 2rem;
+    /* color: rgb(248, 29, 230); */
+}
+
+.main-area  h4:after{
+    content:"";
+    height: 2px;
+    width: 10vw;
+    background: rgb(248, 29, 230);
+    display: inline-block;
+    margin-left: 1%;
+    transform: translate'Y'(-10px);
+}
+
+.main-area .about-area .about-content h1{
+    /* margin-left: 2rem; */
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color:blueviolet ;
+}
+
+.main-area .about-area .about-content .my-list ul{
+    list-style: none;
+}
+#highlight{
+    font-weight: bold;
+    color: blueviolet;
+}
+.main-area .about-area .about-content .my-list ul li>i{
+    /* display: inline; */
+    font-size: 10px;
+    padding: 0.5rem;
+    color: #888888;
+    
+}
+/* About area ends */
+/* resume area starts */
+.main-area .resume-area .resume-section{
+    color: rgb(219, 49, 205);
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+}
+.main-area .resume-area .box:hover{
+    box-shadow: 8px 8px 12px #888888;
+}
+.main-area .resume-area .skills-area h5>i{
+    /* display: inline; */
+    font-size: 17px;
+    padding: 0.5rem;
+    color:rgb(67, 22, 172);
+    
+}
+
+.main-area .resume-area .skills-area .skill-title{
+    color: rgb(103, 31, 197);
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Patua One', cursive;
+}
+/* resume area ends */
+/* project area starts */
+.main-area .project-area .project-title h4{
+    color: rgb(219, 49, 205);
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+}
+.main-area .project-area .projects .our-project .card{
+    background-color:lightskyblue;
+}
+/* project area ends */
+/* <!-- contact area starts --> */
+.main-area .resume-area  h4{
+    color: rgb(219, 49, 205);
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+}
+    .main-area .resume-area .card i{
+      color: blueviolet;
+      padding: 0.5rem;
+      background-color:lightblue;
+      border: 2px solid rgb(198, 214, 233);
+      border-radius: 50%;
+    }
+    .main-area .resume-area .card i:hover{
+      color: rgb(60, 18, 128);
+      padding: 0.5rem;
+    }
+    .main-area .resume-area .card a{
+        color: black;
+        text-decoration: none;
+
+    }
+    /* <!-- contact area ends --> */
+/* mani area ends */
+
+
+/* code for responsiveness */
+@media only screen and (max-width:1010px) {
+    .main-area .banner-area .banner-title{
+        justify-content:space-around;
+        /* margin: 5rem; */
+        /* padding: 1rem; */
+       
+
+    }
+    .main-area .banner-area .banner-image {
+        width: 600px;
+        /* justify-content: space-evenly; */
+    }
+}
+
+@media only screen and (max-width:968px) {
+   
+        .main-area .banner-area .banner-title{
+            /* justify-content: space-around; */
+            margin: 0;
+            padding: 0;
+           
+    
+        }
+       
+       
+}
