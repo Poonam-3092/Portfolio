@@ -2,99 +2,533 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Poonam Bhilare</title>
+    <!-- aos library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Poonam Bhilare</title>
 </head>
 
 <body>
-  <!-- header area starts -->
-  <header class="header_area">
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Poonam  Bhilare</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- header area starts -->
+    <header class="header_area">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">poonam bhilare</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="collapse navbar-collapse" id="navbarText">
-          <div class="ms-auto"></div>
-          <div class="d-flex">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link " id="active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./resume.html">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </nav>
-  </header>
-  <!-- header area ends -->
-  <!-- main area starts -->
-  <div class="main-area">
-    <div class="container">
-      <!-- start banner area -->
-      <div class="row mb-2 banner-area">
-        <div class="col-md-6 banner-content ">
-          <div class="row g-0   overflow-hidden flex-md-row mb-4  h-md-250 position-relative banner-title">
-            <h4 class="title-text">Hey👋</h4>
-            <h2 class="title-text text-uppercase">i am <span class="highlight">poonam</span></h2>
-            <h5 class="title-text text-uppercase">Frontend developer</h5>
-            <div class="site-buttons">
-              
-              <button type="button" class="btn button primary-button "><a href="https://drive.google.com/file/d/1WOy18ZxKhJ4Ytc6DeIJnfLD3k_IZAeE2/view"  target="_blank">Download CV</a></button>
-              <button type="button" class="btn button primary-button"><a href="https://www.linkedin.com/in/poonam-bhilare-821482222/" target="_blank">Connect Me</a> </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="ms-auto"></div>
+                    <div class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-active">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#home-section">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#about-section">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education-section">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills-section">skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Projects-section">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-section">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 banner-image">
-          <div class="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
-            <img src="./img/about2.png" alt="" class="img-fluid w-100" >
-          </div>
-        </div>
-      </div>
+
+        </nav>
+    </header>
+    <!-- header area ends -->
+    <!-- main area starts -->
+    <div class="container">
+        <!-- home section starts -->
+        <section class="home-area" id="home-section">
+            <div class="row justify-content-evenly banner-area">
+                <div class="col-md-6 col-12 banner-content">
+                    <div class="text py-4 pb-4 text-center banner-title" data-aos="fade-right" data-aos-duration="700">
+                        <h4 class="title-text" >Hey👋</h4>
+                        <h2 class="title-text text-uppercase">i am <span class="highlight">poonam</span></h2>
+                        <h5 class="title-text text-uppercase">Frontend developer</h5>
+                        <p>
+                            <a href="https://drive.google.com/file/d/1WOy18ZxKhJ4Ytc6DeIJnfLD3k_IZAeE2/view"
+                                target="_blank" class="btn button primary-button py-2 px-4">Download CV</a>
+                            <a href="https://www.linkedin.com/in/poonam-bhilare-821482222/" target="_blank"
+                                class="btn button primary-button py-2 px-4 m-2">Hire me</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 aos-init aos-animate banner-image" >
+                    <img src="./img/about2.png" class="img-fluid" alt="" data-aos="fade-left" data-aos-duration="700">
+                </div>
+            </div>
+        </section>
+        <!-- home section ends -->
+
+        <!-- about section starts -->
+        <section class="about" id="about-section">
+            <div class="container">
+                <!-- start banner area -->
+                <div class="row mb-2 about-area py-5">
+                    <!-- <h4 class="about-area-title">About</h4> -->
+                    <div class="col-md-6 ">
+                        <div
+                            class="row g-0   overflow-hidden flex-md-row mb-4  h-md-250 position-relative banner-title"  data-aos="fade-down-right">
+                            <img src="./img/me.jpeg" id="my-image" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 about-content" >
+                        <div class="row g-0  overflow-hidden flex-md-row mb-4  h-md-250 position-relative" data-aos="fade-down-left">
+                            <h1 class="text-uppercase ">Let Me Introduce Myself</h1>
+                            <p class="para">A student of Computer Science & Engineering at Parvatibai Genba Moze College
+                                of Engineering(PGMCOE) in 3<sup>rd</sup> year pursuing B.E With a keen intrest in Web
+                                Development. I believe in the motto of learning from every experience and my aim is to
+                                keep learning throughout my career.</p>
+                            <div class="my-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-star"></i><span id="highlight">Name:</span> Poonam Baburao
+                                        Bhilare
+                                    </li>
+                                    <li><i class="fa-solid fa-star"></i><span id="highlight">Age:</span> 20</li>
+                                    <li><i class="fa-solid fa-star"></i><span id="highlight">City:</span> Pune,
+                                        Maharashtra</li>
+                                    <li><i class="fa-solid fa-star"></i><span id="highlight">Birth date:</span> 25 june
+                                        2002</li>
+                                    <li><i class="fa-solid fa-star"></i><span id="highlight">Email:</span>
+                                        poonambhilare758@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- about section ends -->
+
+        <!-- education area starts -->
+        <section class="education" id="education-section">
+            <div class="container px-3 py-1 education-area" id="custom-cards">
+                <h4 class="pb-2 border-bottom education-section text-uppercase text-center">Education</h4>
+
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+                    <div class="col box" data-aos="flip-up" data-aos-duration="800">
+                        <div class="card card-cover h-100 overflow-hidden rounded-5 shadow-lg box-1"
+                            style="background-image: url('./img/box-bg.jpg'); background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3  text-shadow-1 ">
+                                <!-- <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2> -->
+                                <h5>2019-2023</h5>
+                                <h2>Bachelor of Engineering</h2>
+                                <p>Pune University</p>
+                                <h3>9.05 SGPA</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col box" data-aos="flip-up" data-aos-duration="800">
+                        <div class="card card-cover h-100 overflow-hidden  rounded-5 shadow-lg box box-1"
+                            style="background-image: url('./img/box-bg.jpg'); background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3  text-shadow-1">
+                                <!-- <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2> -->
+                                <h5>2017-2019</h5>
+                                <h2>Higher Secondary Education</h2>
+                                <p>BJS jr. College</p>
+                                <h3>71.54%</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col box" data-aos="flip-up" data-aos-duration="800">
+                        <div class="card card-cover h-100 overflow-hidden  rounded-5 shadow-lg box box-1"
+                            style="background-image: url('./img/box-bg.jpg'); background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3  text-shadow-1">
+                                <!-- <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2> -->
+                                <h5>2008-2017</h5>
+                                <h2>Secondary Education</h2>
+                                <p>V.S. Satav HighSchool</p>
+                                <h3>93.40%</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- education area ends -->
+        <section class="skills" id="skills-section">
+            <div class="container px-3 py-1 skills-area" id="custom-cards">
+                <h4 class="pb-2 border-bottom skills-section text-uppercase text-center">Skills</h4>
+                <!-- <div class="skills-area"> -->
+
+                <div class="row align-items-md-stretch">
+                    <h5 class="skill-title"><i class="fa-solid fa-angles-right "></i>LANGUAGES</h5>
+                    <div class="col-md-6" data-aos="zoom-out-right">
+                        <div class="h-100 p-2 rounded-3">
+                            <div class="skill-item">
+                                <h5>Python</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:60%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h5>C++</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:60%"></div>
+                                </div>
+                            </div>
+
+                            <hr border-bottom style="color: white;">
+
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="zoom-out-left">
+                        <div class="h-100 p-2  rounded-3">
+                            <div class="skill-item">
+                                <h5>C</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h5>Java</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:30%"></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row align-items-md-stretch">
+                    <h5 class="skill-title"><i class="fa-solid fa-angles-right"></i>Databases</h5>
+                    <div class="col-md-6" data-aos="zoom-out-right">
+                        <div class="h-100 p-2 rounded-3">
+                            <div class="skill-item">
+                                <h5>Mysql</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:70%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="zoom-out-left">
+                        <div class="h-100 p-2  rounded-3">
+                            <div class="skill-item">
+                                <h5>MongoDB</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr border-bottom style="color:white">
+                <div class="row align-items-md-stretch" >
+                    <h5 class="skill-title"><i class="fa-solid fa-angles-right"></i>Web Development</h5>
+                    <div class="col-md-6" data-aos="zoom-out-right">
+                        <div class="h-100 p-2 rounded-3">
+                            <div class="skill-item">
+                                <h5>HTML</h5>
+                                <div class="progress " >
+                                    <div class="progress-bar  progress-bar-striped progress-bar-animated"
+                                        style="width:90% "></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h5>CSS</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h5>JavaScript</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:50%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="zoom-out-left">
+                        <div class="h-100 p-2  rounded-3">
+                            <div class="skill-item">
+                                <h5>Bootstrap</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <h5>PHP</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                        style="width:50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </section>
+
+        <!-- project area starts -->
+        <section class="projects" id="Projects-section">
+            <div class="container project-area">
+                <div class="project-title pb-4">
+                    <!-- <h2 class="text-uppercase title-h1"> Recently Done Projects</h2> -->
+                    <h4 class="text-uppercase title-h1 text-center"> Project Work</h4>
+                </div>
+                <div class="projects">
+                    <div class="row grid">
+                        <div class="col-lg-6 col-md-6 col-sm-12 element-item latest">
+                            <div class="our-project">
+                                <div class="card mb-3" style="max-width: 600px;" data-aos="fade-down-right">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./img/project2.png" class="img-fluid rounded-start py-5"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Bookstore Landing Page</h5>
+                                                <p class="card-text">A Fully Responsive Website build using html, css
+                                                    and bootstrap and hosted on
+                                                    github pages.</p>
+                                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                                <a href="https://poonam-3092.github.io/bookstore-rwd/"
+                                                    target="_blank"><button type="button"
+                                                        class="button primary-button py-1 px-1">View
+                                                        Project</button></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 element-item popular">
+                            <div class="our-project">
+                                <div class="card mb-3" style="max-width: 600px; " data-aos="fade-down-left">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./img/dh1.png" class="img-fluid rounded-start py-5" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Hotel Management System</h5>
+                                                <p class="card-text">This Project is build using html, css ,php and
+                                                    mysql database showing the
+                                                    hotel website and admin login</p>
+                                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                                <a href="https://github.com/Poonam-3092/Hotel_Management_Web"
+                                                    target="_blank"><button type="button"
+                                                        class="button primary-button py-1 px-1">View
+                                                        Project</button></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 element-item latest">
+                            <div class="our-project">
+                                <div class="card mb-3" style="max-width: 600px; " data-aos="fade-up-right">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./img/project3.png" class="img-fluid rounded-start py-5"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Three dots Laptop Landing page</h5>
+                                                <p class="card-text">The frontpage of a laptop buying store builds using
+                                                    html, css with the use of some animation.</p>
+                                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                                <a href="https://poonam-3092.github.io/Three_dots_laptop-landing_page/"
+                                                    target="_blank"><button type="button"
+                                                        class="button primary-button py-1 px-1">View
+                                                        Project</button></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 element-item latest">
+                            <div class="our-project">
+                                <div class="card mb-3" style="max-width: 600px; " data-aos="fade-up-left">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="./img/portfolio.png" class="img-fluid rounded-start py-5"
+                                                alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Portfolio</h5>
+                                                <p class="card-text">The portfolio website which gives the details
+                                                    information about me and my work build using html ,css , bootstrap
+                                                </p>
+                                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                                <a href="./index.html" target="_blank"><button type="button"
+                                                        class="button primary-button py-1 px-1">View
+                                                        Project</button></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
     </div>
-    <!-- ends banner area -->
-  </div>
-  <!-- main area ends -->
+    </section>
+    <!-- project area ends -->
 
-  <!-- Optional JavaScript; choose one of the two! -->
+    <!-- contact area starts -->
+    <section class="contact" id="contact-section">
+        <div class="contact-area">
+            <div class="container">
+                <div class="container px-3 py-3 contact-content" id="custom-cards">
+                    <h4 class="pb-2 border-bottom text-center text-uppercase">Contact Me</h4>
 
-  <!-- Font awesome -->
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/06088bb5d1.js" crossorigin="anonymous"></script>
-  
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+                    <div class="row cols-1 cols-lg-3 align-items-stretch g-4 py-3 justify-content-evenly">
+                        <div class="col box" data-aos="flip-up">
+                            <div class="card card-cover h-100 overflow-hidden rounded-5 shadow-lg box-1"
+                                style="background-image: url('./img/box-bg.jpg'); background-size: cover;">
+                                <div class="d-flex flex-column h-100 p-2 pb-3  text-shadow-1 ">
+                                    <h3><i class="fa-solid fa-location-dot"></i>My Address</h3>
+                                    <p class="para">Someshwar park, Lonikand tal-haveli dist-Pune,Maharashtra</p>
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col box" data-aos="flip-up">
+                            <div class="card card-cover h-100 overflow-hidden  rounded-5 shadow-lg box box-1"
+                                style="background-image: url('./img/box-bg.jpg'); background-size: cover;">
+                                <div class="d-flex flex-column h-100 p-2 pb-3  text-shadow-1">
+                                    <h3><i class="fa-solid fa-envelope"></i>Email Me</h3>
+                                    <a href="" class="">Poonambhilare758@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row cols-1 cols-lg-6 align-items-stretch g-4 py-3 justify-content-evenly ">
+                        <div class="col box" data-aos="flip-up">
+                            <div class="card card-cover h-100 overflow-hidden rounded-5 shadow-lg box-1"
+                                style="background-image: url('./img/box-bg.jpg'); background-size: cover;">
+                                <div class="d-flex flex-column h-100 p-2 pb-1  text-shadow-1 ">
+                                    <h3><i class="fa-brands fa-github"></i>My Github</h3>
+                                    <a href="https://github.com/Poonam-3092" id="github" target="_blank">Poonam-3092 </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col box" data-aos="flip-up">
+                            <div class="card card-cover h-100 overflow-hidden rounded-5 shadow-lg box-1"
+                                style="background-image: url('./img/box-bg.jpg'); background-size: cover;">
+                                <div class="d-flex flex-column h-100 p-2 pb-1  text-shadow-1 ">
+                                    <h3>Other Social Profiles <br>
+                                        <a href="https://www.linkedin.com/in/poonam-bhilare-821482222/" target="_blank"><i
+                                                class="fa-brands fa-linkedin" ></i></a>
+                                        <a href="https://twitter.com/PoonamBhilare3?t=grqdbYZCdPtyF5nBPVeLMQ&s=09" target="_blank"><i
+                                                class="fa-brands fa-twitter"></i></a>
+                                        <a href="https://www.instagram.com/poonam_3092/?hl=en" target="_blank"><i
+                                                class="fa-brands fa-instagram"></i></a>
+                                        <!-- <a href="https://webk.telegram.org/" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                                        <a href="https://webk.telegram.org/" target="_blank"><i
+                                                class="fa-brands fa-whatsapp" target="_blank"></i></i></a> -->
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+    </section>
+    <!-- contact area starts -->
+    </div>
+    <!-- main area ends -->
+
+    <!-- footer area starts -->
+    <footer class="footer-area">
+        <div class="container">
+
+            <div class="copyrights text-center">
+                <p class="para">
+                    Copyright &copy All rights reserved to
+                    <a href="#" style=" text-decoration: none;"><span style="color: blueviolet;">Poonam
+                            Bhilare</span></a>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer area ends -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Font awesome -->
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/06088bb5d1.js" crossorigin="anonymous"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- custom js file -->
+    <script src="./js/main.js"></script>
+
+    <!-- aos js file -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
 </body>
 
 </html>
