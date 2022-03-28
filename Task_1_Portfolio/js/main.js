@@ -9,5 +9,5 @@ function activeMenu(){
     li.forEach(ltx => ltx.classList.remove("active"));
     li[len].classList.add("active");
 }
-activeMenu();
+activeMenu(); 
 window.addEventListener("scroll", activeMenu);
