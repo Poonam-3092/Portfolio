@@ -202,7 +202,7 @@ header .search-bar-container label:hover{
     width: 100vw;
     height: 90vh;
     object-fit: cover;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 .home .item{
     text-align: center;

@@ -1,5 +1,5 @@
 <?php 
-    function make_connection()
+    function make_connection() 
     {
         $host = "localhost";
         $username = "root";

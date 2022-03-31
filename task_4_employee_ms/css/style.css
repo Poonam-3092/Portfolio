@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --one:#4D77FF;
+    --two:#56BBF1;
+    --three:#5EE6EB;
+    --four:#F2FA5A;
+    --five:#711A75;
+}
+#header{
+    height: 10%;
+    width: 100%;
+    top: 2%;
+    background-color: black;
+    position: fixed;
+    color: white;
+}
+#left{
+    height: 75%;
+    width: 15%;
+    top: 10%;
+    position: fixed;
+    /* background-color: aqua; */
+    
+}
+#right{
+    height: 75%;
+    width: 80%;
+    top: 10%;
+    position: fixed;
+    /* background-color:whitesmoke; */
+    left: 17%;
+    top: 21%;
+    color: red;
+    border: 2px solid black;
+}
+
+#top_span{
+    top: 15%;
+    width: 80%;
+    left: 17%;
+    position: fixed;
+    font-size: 2rem;
+    color: #711A75;
+}
+
+.table_content{
+    border: solid 2px black;
+    padding-left: 2px;
+    text-align: left;
+    width: 250px;
+    font-size: 2rem;
+    color: black;
+}
+.button{
+    background-color: var(--five)   ;
+    color: white;
+}
+.button:hover{
+    background-color: #E900FF;
+    color: white;
+}
+
+
+/* Login Page */
+.login_page{
+   
+    /* background-image: url(./img/login_bg.jpg); */
+    /* background-color: #7C83FD; */
+    background-image: linear-gradient(to right, #180A0A,#7C83FD);
+    /* background-color: #E900FF; */
+    background-size: cover;
+    color: white;
+   
+}
+/* .login_heading{
+    color: white;
+    padding-top: 8rem;
+} */
+.img1{
+    margin-top: 1rem;
+}
+
+/* admin login page  */
+.login{
+    /* background-color: #7C83FD; */
+    background-image: linear-gradient(to right, #180A0A,#7C83FD);
+    color:white;
+}
+.login .form{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+
+}
+.login .form>input{
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+/* css for admin dashboard */
+.dashboard{
+    background-image: linear-gradient(to right, #CE49BF,#7C83FD);
+    color: white;
+}
+.nav{
+    background-image: linear-gradient(to right,#F190B7,#F10086);
+    padding: 0.8rem 0;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+.navbar ul li a{
+    color: black;
+    font-size: 1.5rem;
+}
+.left_side button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 16rem;
+}
+
+/* edit employee info */
+.info{
+    font-size: 1.8rem;
+    color: #d9dff1;
+    font-weight: bold;
+}
+.info search{
+    margin: 2rem 0;
+}
+.info button{
+    margin: 0 0;
+}
+
+span{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
