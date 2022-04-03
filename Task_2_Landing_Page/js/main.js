@@ -1,3 +1,5 @@
+
+
 let searchBtn = document.querySelector('#search-btn');
 let searchBar = document.querySelector('.search-bar-container');
 let menu = document.querySelector('#menu-bar');
@@ -71,4 +73,6 @@ window.addEventListener("DOMContentLoaded", function () {
     };
     xhr.send(data);
   }
+
+  
 
